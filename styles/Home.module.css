@@ -1,0 +1,25 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main video {
+  background: #222;
+  margin: 0 0 20px 0;
+  --width: 100%;
+  width: var(--width);
+  height: calc(var(--width) * 0.75);
+}
